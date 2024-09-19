@@ -14,10 +14,10 @@ public class Join {
     public static void main(String[] args) {
         Session session = FactoryConfiguration.getInstance().getSession();
         Transaction transaction = session.beginTransaction();
-        NativeQuery query = session.createNativeQuery("select a.aId,c.name from Address a inner join Customer c on a.customer_id = c.customer_id");
+        NativeQuery query = session.createNativeQuery(" select name,aId from customer c right join address a on c.id = a.customer_id;");
         List<Object[]> resultList = query.getResultList();
         for (Object[] objects : resultList){
-            System.out.println("Name: "+objects[0] + "AddressID: "+objects[1]);
+            System.out.println("Name: "+objects[0] + " ,AddressID: "+objects[1]);
         }
 
         transaction.commit();
