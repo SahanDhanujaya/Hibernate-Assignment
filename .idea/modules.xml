@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HQL.iml" filepath="$PROJECT_DIR$/HQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Hibernate-Assignment.iml" filepath="$PROJECT_DIR$/.idea/Hibernate-Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jpql/Jpql.iml" filepath="$PROJECT_DIR$/Jpql/Jpql.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQL.iml" filepath="$PROJECT_DIR$/SQL.iml" />
     </modules>
   </component>

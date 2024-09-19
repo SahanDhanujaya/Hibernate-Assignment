@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/HQL/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HQL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jpql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jpql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SQL/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SQL/src/main/resources" charset="UTF-8" />
   </component>
